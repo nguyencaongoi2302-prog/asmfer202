@@ -2,13 +2,11 @@
   "name": "english-quiz-react",
   "private": true,
   "version": "1.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "server": "json-server --watch db.json --port 3001",
+    "dev": "react-scripts start",
+    "server": "json-server --watch db.json --port 8000",
     "start": "concurrently -k -n API,WEB -c yellow,cyan \"npm run server\" \"npm run dev\"",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "react-scripts build"
   },
   "dependencies": {
     "react": "^19.2.0",
@@ -16,9 +14,20 @@
     "react-router-dom": "^7.18.1"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^6.0.3",
     "concurrently": "^9.2.1",
     "json-server": "0.17.4",
-    "vite": "^8.0.0"
+    "react-scripts": "5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

@@ -1,6 +1,6 @@
 # English Quiz Hub
 
-Dự án web thi trắc nghiệm tiếng Anh sử dụng **ReactJS + Vite + React Router + JSON Server**. Dữ liệu được lưu trong `db.json` để phù hợp với đồ án học tập hoặc demo frontend.
+Dự án web thi trắc nghiệm tiếng Anh sử dụng **ReactJS (Create React App) + React Router + JSON Server**. Dữ liệu được lưu trong `db.json` để phù hợp với đồ án học tập hoặc demo frontend.
 
 ## Chức năng
 
@@ -31,8 +31,8 @@ Dự án web thi trắc nghiệm tiếng Anh sử dụng **ReactJS + Vite + Reac
 
 | Role | Email | Mật khẩu |
 |---|---|---|
-| Admin | `admin@example.com` | `admin123` |
-| User | `user@example.com` | `user123` |
+| Admin | `admin@example.com` | `123456` |
+| User | `user@example.com` | `123456` |
 
 ## Yêu cầu môi trường
 
@@ -47,7 +47,7 @@ npm start
 ```
 
 Lệnh `npm start` chạy đồng thời:
-- React/Vite: `http://localhost:5173`
+- React: `http://localhost:3000`
 - JSON Server API: `http://localhost:3001`
 
 Có thể chạy riêng từng phần:
@@ -61,8 +61,9 @@ npm run dev
 
 ```bash
 npm run build
-npm run preview
 ```
+
+Kết quả build nằm trong thư mục `build/`.
 
 ## Cấu trúc chính
 
@@ -70,8 +71,8 @@ npm run preview
 english-quiz-react/
 ├── db.json
 ├── package.json
-├── vite.config.js
-├── index.html
+├── public/
+│   └── index.html
 └── src/
     ├── components/
     ├── context/
@@ -87,7 +88,7 @@ english-quiz-react/
     ├── styles/
     ├── utils/
     ├── App.jsx
-    └── main.jsx
+    └── index.jsx
 ```
 
 ## Cấu trúc `db.json`

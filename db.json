@@ -63,9 +63,9 @@
       "level": "B2",
       "durationMinutes": 15,
       "passingScore": 75,
-      "published": false,
+      "published": true,
       "createdAt": "2026-07-05T08:00:00.000Z",
-      "updatedAt": "2026-07-05T08:00:00.000Z"
+      "updatedAt": "2026-11-11T02:19:53.593Z"
     }
   ],
   "questions": [
@@ -431,6 +431,92 @@
       "durationSeconds": 21,
       "autoSubmitted": false,
       "id": 1
+    },
+    {
+      "userId": 4,
+      "quizId": 3,
+      "answers": [
+        {
+          "questionId": 11,
+          "selectedOptionId": "D",
+          "isCorrect": false
+        }
+      ],
+      "score": 0,
+      "totalPoints": 1,
+      "percent": 0,
+      "passed": false,
+      "correctCount": 0,
+      "questionCount": 1,
+      "startedAt": "2026-11-11T01:13:40.116Z",
+      "submittedAt": "2026-11-11T01:13:47.244Z",
+      "durationSeconds": 7,
+      "autoSubmitted": false,
+      "id": 2
+    },
+    {
+      "userId": 4,
+      "quizId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "selectedOptionId": "B",
+          "isCorrect": true
+        },
+        {
+          "questionId": 2,
+          "selectedOptionId": "B",
+          "isCorrect": false
+        },
+        {
+          "questionId": 3,
+          "selectedOptionId": "B",
+          "isCorrect": false
+        },
+        {
+          "questionId": 4,
+          "selectedOptionId": "B",
+          "isCorrect": false
+        },
+        {
+          "questionId": 5,
+          "selectedOptionId": "B",
+          "isCorrect": true
+        }
+      ],
+      "score": 2,
+      "totalPoints": 5,
+      "percent": 40,
+      "passed": false,
+      "correctCount": 2,
+      "questionCount": 5,
+      "startedAt": "2026-11-11T01:13:54.871Z",
+      "submittedAt": "2026-11-11T01:14:05.124Z",
+      "durationSeconds": 10,
+      "autoSubmitted": false,
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "quizId": 3,
+      "answers": [
+        {
+          "questionId": 11,
+          "selectedOptionId": "C",
+          "isCorrect": false
+        }
+      ],
+      "score": 0,
+      "totalPoints": 1,
+      "percent": 0,
+      "passed": false,
+      "correctCount": 0,
+      "questionCount": 1,
+      "startedAt": "2026-11-11T02:21:08.882Z",
+      "submittedAt": "2026-11-11T02:21:12.225Z",
+      "durationSeconds": 3,
+      "autoSubmitted": false,
+      "id": 4
     }
   ]
 }
