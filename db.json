@@ -1,0 +1,436 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "System Administrator",
+      "email": "admin@example.com",
+      "password": "123456",
+      "role": "admin",
+      "createdAt": "2026-07-01T08:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "fullName": "Nguyễn Văn A",
+      "email": "user@example.com",
+      "password": "123456",
+      "role": "user",
+      "createdAt": "2026-07-02T08:00:00.000Z"
+    },
+    {
+      "fullName": "Cao Ngợi Nguyễn",
+      "email": "nguyencaongoi2302@gmail.com",
+      "password": "Nguyencn2302.",
+      "role": "user",
+      "createdAt": "2026-10-28T10:13:57.929Z",
+      "id": 3
+    },
+    {
+      "fullName": "Đỗ Văn Khải",
+      "email": "dovankhai@gmail.com",
+      "password": "888888",
+      "role": "user",
+      "createdAt": "2026-11-05T09:45:51.644Z",
+      "id": 4
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "English Grammar - Present Tenses",
+      "description": "Kiểm tra cách sử dụng Present Simple và Present Continuous trong các tình huống quen thuộc.",
+      "level": "A2",
+      "durationMinutes": 10,
+      "passingScore": 70,
+      "published": true,
+      "createdAt": "2026-07-03T08:00:00.000Z",
+      "updatedAt": "2026-07-03T08:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "title": "Travel & Transportation Vocabulary",
+      "description": "Ôn tập từ vựng tiếng Anh thường dùng tại sân bay, nhà ga và trong các chuyến du lịch.",
+      "level": "B1",
+      "durationMinutes": 12,
+      "passingScore": 70,
+      "published": true,
+      "createdAt": "2026-07-04T08:00:00.000Z",
+      "updatedAt": "2026-07-04T08:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "title": "Business English Essentials",
+      "description": "Bài thi đang soạn về email, cuộc họp và giao tiếp trong môi trường công sở.",
+      "level": "B2",
+      "durationMinutes": 15,
+      "passingScore": 75,
+      "published": false,
+      "createdAt": "2026-07-05T08:00:00.000Z",
+      "updatedAt": "2026-07-05T08:00:00.000Z"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "quizId": 1,
+      "order": 1,
+      "content": "She ____ to school by bus every day.",
+      "options": [
+        {
+          "id": "A",
+          "text": "go"
+        },
+        {
+          "id": "B",
+          "text": "goes"
+        },
+        {
+          "id": "C",
+          "text": "is going"
+        },
+        {
+          "id": "D",
+          "text": "going"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Với chủ ngữ ngôi thứ ba số ít trong Present Simple, động từ thêm -s/-es.",
+      "points": 1,
+      "createdAt": "2026-07-03T08:10:00.000Z",
+      "updatedAt": "2026-07-03T08:10:00.000Z"
+    },
+    {
+      "id": 2,
+      "quizId": 1,
+      "order": 2,
+      "content": "Look! The children ____ football in the garden.",
+      "options": [
+        {
+          "id": "A",
+          "text": "play"
+        },
+        {
+          "id": "B",
+          "text": "plays"
+        },
+        {
+          "id": "C",
+          "text": "are playing"
+        },
+        {
+          "id": "D",
+          "text": "is playing"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "“Look!” cho thấy hành động đang diễn ra, nên dùng Present Continuous: are playing.",
+      "points": 1,
+      "createdAt": "2026-07-03T08:11:00.000Z",
+      "updatedAt": "2026-07-03T08:11:00.000Z"
+    },
+    {
+      "id": 3,
+      "quizId": 1,
+      "order": 3,
+      "content": "I usually ____ coffee, but today I ____ tea.",
+      "options": [
+        {
+          "id": "A",
+          "text": "drink / am drinking"
+        },
+        {
+          "id": "B",
+          "text": "am drinking / drink"
+        },
+        {
+          "id": "C",
+          "text": "drinks / am drinking"
+        },
+        {
+          "id": "D",
+          "text": "drink / drink"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "“Usually” dùng Present Simple; “today” mô tả tình huống tạm thời nên dùng Present Continuous.",
+      "points": 1,
+      "createdAt": "2026-07-03T08:12:00.000Z",
+      "updatedAt": "2026-07-03T08:12:00.000Z"
+    },
+    {
+      "id": 4,
+      "quizId": 1,
+      "order": 4,
+      "content": "My brother ____ TV at the moment.",
+      "options": [
+        {
+          "id": "A",
+          "text": "watches"
+        },
+        {
+          "id": "B",
+          "text": "watch"
+        },
+        {
+          "id": "C",
+          "text": "is watching"
+        },
+        {
+          "id": "D",
+          "text": "are watching"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "“At the moment” là dấu hiệu của Present Continuous; chủ ngữ số ít dùng is.",
+      "points": 1,
+      "createdAt": "2026-07-03T08:13:00.000Z",
+      "updatedAt": "2026-07-03T08:13:00.000Z"
+    },
+    {
+      "id": 5,
+      "quizId": 1,
+      "order": 5,
+      "content": "How often ____ your parents ____ abroad?",
+      "options": [
+        {
+          "id": "A",
+          "text": "are / travelling"
+        },
+        {
+          "id": "B",
+          "text": "do / travel"
+        },
+        {
+          "id": "C",
+          "text": "does / travel"
+        },
+        {
+          "id": "D",
+          "text": "do / travels"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "“How often” hỏi tần suất, dùng Present Simple. Chủ ngữ số nhiều “parents” đi với do + động từ nguyên mẫu.",
+      "points": 1,
+      "createdAt": "2026-07-03T08:14:00.000Z",
+      "updatedAt": "2026-07-03T08:14:00.000Z"
+    },
+    {
+      "id": 6,
+      "quizId": 2,
+      "order": 1,
+      "content": "The place where passengers wait for a train is called a ____.",
+      "options": [
+        {
+          "id": "A",
+          "text": "platform"
+        },
+        {
+          "id": "B",
+          "text": "runway"
+        },
+        {
+          "id": "C",
+          "text": "harbour"
+        },
+        {
+          "id": "D",
+          "text": "garage"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "A platform is the area beside a railway track where passengers get on or off a train.",
+      "points": 1,
+      "createdAt": "2026-07-04T08:10:00.000Z",
+      "updatedAt": "2026-07-04T08:10:00.000Z"
+    },
+    {
+      "id": 7,
+      "quizId": 2,
+      "order": 2,
+      "content": "You need to show your ____ before boarding an international flight.",
+      "options": [
+        {
+          "id": "A",
+          "text": "receipt"
+        },
+        {
+          "id": "B",
+          "text": "passport"
+        },
+        {
+          "id": "C",
+          "text": "menu"
+        },
+        {
+          "id": "D",
+          "text": "timetable"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A passport is an official travel document used to prove identity and nationality.",
+      "points": 1,
+      "createdAt": "2026-07-04T08:11:00.000Z",
+      "updatedAt": "2026-07-04T08:11:00.000Z"
+    },
+    {
+      "id": 8,
+      "quizId": 2,
+      "order": 3,
+      "content": "If a flight leaves later than planned, it is ____.",
+      "options": [
+        {
+          "id": "A",
+          "text": "direct"
+        },
+        {
+          "id": "B",
+          "text": "delayed"
+        },
+        {
+          "id": "C",
+          "text": "available"
+        },
+        {
+          "id": "D",
+          "text": "crowded"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A delayed flight does not depart at its scheduled time.",
+      "points": 1,
+      "createdAt": "2026-07-04T08:12:00.000Z",
+      "updatedAt": "2026-07-04T08:12:00.000Z"
+    },
+    {
+      "id": 9,
+      "quizId": 2,
+      "order": 4,
+      "content": "A journey where you travel to a place and then return is a ____ trip.",
+      "options": [
+        {
+          "id": "A",
+          "text": "one-way"
+        },
+        {
+          "id": "B",
+          "text": "round"
+        },
+        {
+          "id": "C",
+          "text": "single"
+        },
+        {
+          "id": "D",
+          "text": "local"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A round trip includes both the outward and return journeys.",
+      "points": 1,
+      "createdAt": "2026-07-04T08:13:00.000Z",
+      "updatedAt": "2026-07-04T08:13:00.000Z"
+    },
+    {
+      "id": 10,
+      "quizId": 2,
+      "order": 5,
+      "content": "Where can you collect your suitcases after a flight?",
+      "options": [
+        {
+          "id": "A",
+          "text": "At the check-in desk"
+        },
+        {
+          "id": "B",
+          "text": "At baggage claim"
+        },
+        {
+          "id": "C",
+          "text": "At the departure gate"
+        },
+        {
+          "id": "D",
+          "text": "At customs control"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "Baggage claim is the airport area where arriving passengers collect checked luggage.",
+      "points": 1,
+      "createdAt": "2026-07-04T08:14:00.000Z",
+      "updatedAt": "2026-07-04T08:14:00.000Z"
+    },
+    {
+      "id": 11,
+      "quizId": 3,
+      "order": 1,
+      "content": "Which phrase is most appropriate for starting a formal email?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hey there!"
+        },
+        {
+          "id": "B",
+          "text": "Dear Ms. Taylor,"
+        },
+        {
+          "id": "C",
+          "text": "What's up?"
+        },
+        {
+          "id": "D",
+          "text": "Hi buddy,"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "A title and surname are appropriate when addressing someone formally.",
+      "points": 1,
+      "createdAt": "2026-07-05T08:10:00.000Z",
+      "updatedAt": "2026-07-05T08:10:00.000Z"
+    }
+  ],
+  "attempts": [
+    {
+      "userId": 4,
+      "quizId": 2,
+      "answers": [
+        {
+          "questionId": 6,
+          "selectedOptionId": "D",
+          "isCorrect": false
+        },
+        {
+          "questionId": 7,
+          "selectedOptionId": "D",
+          "isCorrect": false
+        },
+        {
+          "questionId": 8,
+          "selectedOptionId": "D",
+          "isCorrect": false
+        },
+        {
+          "questionId": 9,
+          "selectedOptionId": "C",
+          "isCorrect": false
+        },
+        {
+          "questionId": 10,
+          "selectedOptionId": null,
+          "isCorrect": false
+        }
+      ],
+      "score": 0,
+      "totalPoints": 5,
+      "percent": 0,
+      "passed": false,
+      "correctCount": 0,
+      "questionCount": 5,
+      "startedAt": "2026-11-05T09:47:14.827Z",
+      "submittedAt": "2026-11-05T09:47:35.614Z",
+      "durationSeconds": 21,
+      "autoSubmitted": false,
+      "id": 1
+    }
+  ]
+}
